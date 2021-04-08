@@ -1,0 +1,150 @@
+fieldset{
+    height: 1px;
+}
+body{
+    min-width: 1200px;
+    background-color: white;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+body header{
+    height:80px;
+    width: 80%;
+    margin-left: 10%;
+}
+#logo{
+    float: left;
+    margin-right:5px;
+    height:70%;
+}
+h1{
+    margin:0px;
+    font-family: Yellowtail;
+    font-size: 30px;
+}
+body header section{
+    display: inline-block;
+    height: 30px;
+}
+body header section p{
+    margin: 0px;
+}
+#images{
+    float: right;
+    margin-top:12px;
+}
+#images div{
+    display: inline-block;
+}
+#share{
+    margin-right:10px;
+}
+.dashed{
+    height: 10px;
+    background-image: url('../image/dashed.jpg');
+    border: none;
+    margin-top: 30px;
+   
+}
+body main{
+    width: 80%;
+    margin-left: 10%;
+    text-indent: 15px;
+    clear: both;
+    position: relative;
+}
+h2{
+font-family: 'Squada One' ;
+font-size: 40px;
+font-weight:500;
+margin-bottom: 0px;
+}
+#post{
+    margin-top: 0;
+    font-family: 'Open Sans Condensed';
+}
+#print{
+    float: right;
+    position: absolute;
+    top:20px;
+    right:20px;
+}
+#print p{
+    display: inline-block;
+}
+#pizza{
+    width: 100%;
+
+}
+#info{
+    
+    text-align: center;
+    background-image: url('../image/list-bg.png');
+    height: 150px;
+    width:100%;
+    padding: 20px;
+}
+input{
+    display: inline-block;
+   margin-right: 0;
+   margin-left: 25px;
+
+}
+label{
+    font-family: 'patrick hand';
+    text-align: left;
+    display: inline-block;
+    margin-right: 100px;
+    width: 200px;
+}
+#info div{
+    margin: auto;
+    display:block;
+}
+footer{
+    position: relative;
+    width: 80%;
+    margin-left: 10%;
+}
+button{
+    position: absolute;
+    top:25px;
+    right:25px;
+    height: 50px;
+    width:180px;
+    background-color:rgb(218, 117, 92) ;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+#profile {
+    float: left;
+    margin-right: 10px;
+
+}
+hr{
+    margin-top: 30px;
+}
+footer div{
+   display: inline-block;
+    width: 600px;    
+}
+h3{
+    font-size: 22px;
+    line-height:0px;
+}
+#copyRights{
+    text-align: center;
+
+}
+label:active{
+    text-decoration: line-through;
+
+}
+#smallLogo{
+    bottom: 20px;
+    left: 49%;
+    position: absolute;
+    height: 20px;
+    padding: 10px;
+}
